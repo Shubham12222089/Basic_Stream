@@ -6,7 +6,7 @@ st.header("Connect with me")
 # Image and Introduction
 col1, col2 = st.columns(2)
 with col2:
-    st.image("C:\\Users\\shubh\\OneDrive\\Pictures\\IMG_20220501_231601_598.jpg", width=170)
+    st.image("image.jpg", width=170)
 with col1:
     st.text("Hello! I'm Shubham, a B.Tech CSE \nstudent at Lovely Professional University, \npassionate about the intersection of \ntechnology, social good, and sports.")
 
