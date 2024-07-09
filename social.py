@@ -29,7 +29,7 @@ social_media = {
 }
 
 for platform, link in social_media.items():
-    st.button(f"[{platform}]({link})")
+    st.markdown(((f"[{platform}]({link})")))
 
 # Optionally, add some contact information
 st.write("Feel free to reach out to me on any of these platforms!")
