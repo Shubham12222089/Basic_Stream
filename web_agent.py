@@ -10,7 +10,7 @@ WORKDIR = "./workspace"
 APP_FILE = os.path.join(WORKDIR, "app.py")
 os.makedirs(WORKDIR, exist_ok=True)
 
-llm=ChatGroq(groq_api_key="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",model_name="llama-3.3-70b-versatile")
+llm=ChatGroq(groq_api_key="",model_name="llama-3.3-70b-versatile")
 
 # ---- FUNCTIONS ----
 def call_llm(prompt, code):
